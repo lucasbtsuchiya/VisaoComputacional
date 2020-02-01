@@ -9,3 +9,4 @@ deteccoes = classificador.detecMultiScale(imagemcinza)
 
 print(deteccoes)
 print(len(deteccoes))
+##Teste
