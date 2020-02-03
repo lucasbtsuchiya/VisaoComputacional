@@ -1,0 +1,7 @@
+createsamples -img caneca01.jpg -bg negativas/bg.txt -info positivas/positivas.lst -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num 1800 -bgcolor 255
+
+createsamples -> Comando para gerar imagenns postivas
+
+Treinar o Classificador - Criação do HaarCascade
+opencv_traincascade -data classificador -vec positivas.vec -bg bg.txt -numPos 1600 -numNeg 800 -numStages 10 -w 18 -h 18 -precalcBufSize 1024 -precalcIdxBufSize 1024
+

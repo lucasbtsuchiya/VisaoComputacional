@@ -11,7 +11,7 @@ imagemcinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 # Scale Factor scaleFactor = valor_da_escala
 # minNeighbors minNeighbors = valor
 # minSize
-deteccoes = classificador.detectMultiScale(imagemcinza, scaleFactor=1.09, minNeighbors=5, minSize=(30,30), maxSize=(40,40))
+deteccoes = classificador.detectMultiScale(imagemcinza, scaleFactor=1.09, minNeighbors=5)
 
 print(deteccoes)
 print(len(deteccoes))
